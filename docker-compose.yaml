@@ -34,7 +34,7 @@ services:
       - ./volumes/db:/var/lib/postgresql/data
 
   hmdm:
-    # Built locally from this repo's Dockerfile (pinned Tomcat).
+    # Built locally from this repo's Dockerfile.
     # Rebuild with: docker compose build --pull hmdm
     build: .
     image: hmdm:local
